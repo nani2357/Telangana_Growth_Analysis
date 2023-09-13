@@ -31,7 +31,8 @@ tables:
 
 
   fact_stamps:
-    description: "The table provides data on the revenue generated from document registrations and estamp challan payments aggregated at the district and monthly level."
+    description: "The table provides data on the revenue generated from document registrations 
+    and estamp challan payments aggregated at the district and monthly level."
     columns:
       dist_code:
         description: "This column represents the district code."

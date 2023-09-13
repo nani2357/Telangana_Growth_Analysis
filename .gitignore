@@ -130,6 +130,7 @@ dmypy.json
 db_config.yaml
 predicative_ideas.txt
 research_questions_and_recommendations.pdf
+.vscode/
 
 
 
