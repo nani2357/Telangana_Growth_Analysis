@@ -1,0 +1,111 @@
+tables:
+  dim_districts:
+    description: "The table contains information about districts."
+    columns:
+      dist_code:
+        description: "This column represents the district code or identifier for each district."
+      district:
+        description: "This column represents the name of the district."
+
+
+
+
+
+
+  dim_date:
+    description: "This table contains the dates at the monthly level. Please be aware that the fiscal year of Telangana spans from April to March."
+    columns:
+      month:
+        description: "This column contains the starting date of each month."
+      Mmm:
+        description: "This column contains the name of the month."
+      quarter:
+        description: "This column contains the associated quarter for each particular month."
+      fiscal_year:
+        description: "This column contains the corresponding fiscal year of each month."
+
+
+
+
+
+
+
+  fact_stamps:
+    description: "The table provides data on the revenue generated from document registrations and estamp challan payments aggregated at the district and monthly level."
+    columns:
+      dist_code:
+        description: "This column represents the district code."
+      month:
+        description: "This column represents the starting date of each month."
+      documents_registered_cnt:
+        description: "This column represents the total count of documents registered."
+      documents_registered_rev:
+        description: "This column represents the total revenue generated from the registered documents."
+      estamps_challans_cnt:
+        description: "This column represents the count of e-stamps challans."
+      estamps_challans_rev:
+        description: "This column represents the revenue generated from e-stamps challans."
+
+
+
+
+
+  fact_transport:
+    description: "The table provides information about the individual vehicle sales data from the RTA(Regional Transport Authority) of the state of Telangana categorized by fuel type, vehicle class, seating capacity, and other general categories aggregated at the district and monthly level."
+    columns:
+      dist_code:
+        description: "This column represents the district code."
+      month:
+        description: "This column represents the starting date of each month."
+      fuel_type_petrol:
+        description: "Number of vehicles sold with petrol fuel type."
+      fuel_type_diesel:
+        description: "Number of vehicles sold with diesel fuel type."
+      fuel_type_electric:
+        description: "Number of vehicles sold with electric fuel type."
+      fuel_type_others:
+        description: "Number of vehicles sold with other fuel types."
+      vehicleClass_Motorcycles:
+        description: "This category includes all two-wheeled vehicles, such as motorcycles, scooters etc."
+      vehicleClass_Motorcars:
+        description: "This category includes all four-wheeled vehicles, such as cars, vans etc."
+      vehicleClass_Auto rickshaws:
+        description: "This category includes three-wheeled vehicles, such as auto rickshaws."
+      vehicleClass_Agriculture:
+        description: "This category includes all vehicles used for agricultural purposes, such as tractors and harvesters."
+      vehicleClass_Others:
+        description: "This category includes all vehicles belonging to other classes."
+      seatCapacity_1_to_3:
+        description: "Number of vehicles sold with a seating capacity ranging from 1 to 3."
+      seatCapacity_4_to_6:
+        description: "Number of vehicles sold with a seating capacity ranging from 4 to 6."
+      seatCapacity_above_6:
+        description: "Number of vehicles sold with a seating capacity above 6."
+      Brand_new_vehicles:
+        description: "Number of brand new vehicles sold."
+      Pre-owned_vehicles:
+        description: "Number of pre-owned vehicles sold."
+      category_Non-Transport:
+        description: "Number of vehicles in the non-transport category sold. The Non-Transport category typically includes vehicles that are not primarily used for public transportation of passengers or goods. Instead, these vehicles are generally intended for personal use, recreational activities, agriculture, construction, and other non-commercial purposes."
+      category_Transport:
+        description: "Number of vehicles in the transport category sold. The Transport category comprises vehicles primarily designed and used for the transportation of goods, passengers, or both. These vehicles are generally associated with commercial and public transportation purposes."
+
+
+
+
+
+
+
+  fact_TS_iPASS:
+    description: "The TS-iPASS dataset in Telangana comprises data concerning units or businesses established within the state under the 'Industrial Project Approval and Self-Certification System' (iPASS). This government initiative aims to foster industrial growth and investment by streamlining project approvals and enabling self-certification for businesses. For further details, visit: https://ipass.telangana.gov.in/"
+    columns:
+      dist_code:
+        description: "This column represents the district code."
+      month:
+        description: "This column represents the starting date of each month."
+      sector:
+        description: "This column represents the industry category. Examples of sectors include 'Automobiles', 'Beverages', 'Engineering', 'Food Processing', etc."
+      investment in cr:
+        description: "The column represents the investment made in the specific sector, measured in crores (a unit of currency), for the corresponding district and month."
+      number_of_employes:
+        description: "This column represents the number of employees associated with that sector for given district and respective month."
