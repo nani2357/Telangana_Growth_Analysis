@@ -39,4 +39,3 @@ Telangana is one of the fastest-growing states in India, with an average annual 
 # PowerBI Dashboard
 Click [here](https://app.powerbi.com/view?r=eyJrIjoiOTM4OTQwYTktODIwYy00Y2M0LWE3ZWQtNDE5MDQ4NWQ0NjRhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9) to view the dashboard.
 
-<iframe src="https://app.powerbi.com/view?r=eyJrIjoiOTM4OTQwYTktODIwYy00Y2M0LWE3ZWQtNDE5MDQ4NWQ0NjRhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" width="100%" height="600px"></iframe>
