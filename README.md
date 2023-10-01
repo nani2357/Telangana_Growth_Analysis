@@ -36,3 +36,6 @@ Telangana is one of the fastest-growing states in India, with an average annual 
 - Trend Analysis: Scrutinize the trends and patterns within each sector, aiming to unveil growth opportunities and areas that require attention.
 - Policy Impact: Assess the influence of governmental policies and initiatives on these sectors, offering insights into their effectiveness and areas for enhancement.
 
+# PowerBI Dashboard
+Click [here](https://app.powerbi.com/view?r=eyJrIjoiOTM4OTQwYTktODIwYy00Y2M0LWE3ZWQtNDE5MDQ4NWQ0NjRhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9) to view the dashboard.
+
