@@ -5,7 +5,7 @@ Sponsored by Telangana Government & codebasics.io
 Open Data Telangana
 
 ## Objective:
-- Explore Stamp Registration, Transportation, and Ts-Ipass Datasets.
+- Explore Stamp Registration, Transportation, and Ts-Ipass departments.
 - Understand their attributes, categories, and time period.
 - Analyze trends and patterns within each department.
 - Identify growth opportunities and areas needing attention.
