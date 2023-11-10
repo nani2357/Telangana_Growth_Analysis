@@ -2,7 +2,7 @@
 Sponsored by Telangana Government & codebasics.io
 
 ## Data Source: 
-Open Data Telangana
+Open Data Telangana gov
 
 ## Objective:
 - Explore Stamp Registration, Transportation, and Ts-Ipass departments.
